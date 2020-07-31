@@ -1,4 +1,15 @@
-# simplepermission
+#implementation
+    implementation 'com.github.Nhatran241:simplepermission:1.0.1'
+#add Maven
+     allprojects {
+        repositories {
+            maven { url 'https://jitpack.io' }
+        
+        }
+    }
+
+
+# simplepermission 
 
     public class MainActivity extends AppCompatActivity implements PermissionManager.IGrantPermissionListener{
 
@@ -36,3 +47,6 @@
     }
     }
     Dont forget add Permission Manifest
+    
+    
+   
