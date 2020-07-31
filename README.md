@@ -1,6 +1,6 @@
 # simplepermission
-public class MainActivity extends AppCompatActivity implements PermissionManager.IGrantPermissionListener{
 
+    public class MainActivity extends AppCompatActivity implements PermissionManager.IGrantPermissionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
