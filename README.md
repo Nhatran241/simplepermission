@@ -12,7 +12,7 @@
     }
 
 
-# simplepermission 
+# how to use 
 
     public class MainActivity extends AppCompatActivity implements PermissionManager.IGrantPermissionListener{
 
@@ -49,7 +49,6 @@
 
     }
     }
-    Dont forget add Permission Manifest
     
     
    
