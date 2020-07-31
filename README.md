@@ -13,7 +13,10 @@
 
 
 # how to use 
-
+    add Permission to Manifest first
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
     public class MainActivity extends AppCompatActivity implements PermissionManager.IGrantPermissionListener{
 
     @Override
