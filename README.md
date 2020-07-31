@@ -34,4 +34,5 @@ public class MainActivity extends AppCompatActivity implements PermissionManager
     public void OnGrantPermissionFail(PermissionManager.PermissionType permissionType, String errror) {
 
     }
-}
+    }
+    Dont forget add Permission Manifest
